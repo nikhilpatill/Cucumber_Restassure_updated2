@@ -1,0 +1,1592 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-16T06:41:36.639Z",
+        "line": 5,
+        "name": "Create User ADD_Cart_APIIAPI test scenario",
+        "description": "",
+        "id": "create-dummyjson-add-cart-apii-test-scenarios;create-user-add-cart-apiiapi-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6821946000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "LoginToken dummyJson_ADD_Cart_APII using get method",
+            "match": {
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.login_token_dummy_json_add_cart_apii_using_get_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9058300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The \"Post\" dummyJson_ADD_Cart_APII call got success with status code 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Post\"",
+                  "offset": 4
+                },
+                {
+                  "val": "201",
+                  "offset": 69
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_call_got_success_with_status_code(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2002200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The \"content-type\" dummyJson_ADD_Cart_APII  varify Responce_Header \"application/json; charset\u003dutf-8\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"content-type\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 67
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_responce_header(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1378743500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The \"id\" dummyJson_ADD_Cart_APII varify Responceeid 51",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 4
+                },
+                {
+                  "val": "51",
+                  "offset": 52
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_responceeid(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66515500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The \"total\" dummyJson_ADD_Cart_APII varify Responcee 19.98",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"total\"",
+                  "offset": 4
+                },
+                {
+                  "val": "19.98",
+                  "offset": 53
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_responcee(java.lang.String,java.lang.Double)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22925700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The \"discountedTotal\" dummyJson_ADD_Cart_APII varify ResponceediscountedTotal 17",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"discountedTotal\"",
+                  "offset": 4
+                },
+                {
+                  "val": "17",
+                  "offset": 78
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_responceediscounted_total(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28488100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The \"userId\" dummyJson_ADD_Cart_APII varify ResponceeuserId 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userId\"",
+                  "offset": 4
+                },
+                {
+                  "val": "1",
+                  "offset": 60
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_responceeuser_id(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28466200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The \"totalProducts\" dummyJson_ADD_Cart_APII varify ResponceetotalProducts 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"totalProducts\"",
+                  "offset": 4
+                },
+                {
+                  "val": "2",
+                  "offset": 74
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_responceetotal_products(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43878000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The \"totalQuantity\" dummyJson_ADD_Cart_APII varify ResponceetotalQuantity 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"totalQuantity\"",
+                  "offset": 4
+                },
+                {
+                  "val": "2",
+                  "offset": 74
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_responceetotal_quantity(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118545800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The \"Product_title\" dummyJson_ADD_Cart_APII varify Responce \"Essence Mascara Lash Princess\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Product_title\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Essence Mascara Lash Princess\"",
+                  "offset": 60
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42029700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The \"quantity\" dummyJson_ADD_Cart_APII varify ProductResponce 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"quantity\"",
+                  "offset": 4
+                },
+                {
+                  "val": "1",
+                  "offset": 62
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_product_responce(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32057000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The \"Producttotal\" dummyJson_ADD_Cart_APII varify ProductResponcee 9.99",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Producttotal\"",
+                  "offset": 4
+                },
+                {
+                  "val": "9.99",
+                  "offset": 67
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_product_responcee(java.lang.String,java.lang.Double)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24539600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The \"price\" dummyJson_ADD_Cart_APII varify ProductResponcee 9.99",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"price\"",
+                  "offset": 4
+                },
+                {
+                  "val": "9.99",
+                  "offset": 60
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_product_responcee(java.lang.String,java.lang.Double)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41467100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The \"discountPercentage\" dummyJson_ADD_Cart_APII varify ProductResponcee 7.17",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"discountPercentage\"",
+                  "offset": 4
+                },
+                {
+                  "val": "7.17",
+                  "offset": 73
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_product_responcee(java.lang.String,java.lang.Double)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40175800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The \"discountedPrice\" dummyJson_ADD_Cart_APII varify ProductResponce 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"discountedPrice\"",
+                  "offset": 4
+                },
+                {
+                  "val": "9",
+                  "offset": 69
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_product_responce(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40138500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The \"Product_title2\" dummyJson_ADD_Cart_APII varify Responce \"Black Whisk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Product_title2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Black Whisk\"",
+                  "offset": 61
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30312000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The \"quantity2\" dummyJson_ADD_Cart_APII varify ProductResponce 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"quantity2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "1",
+                  "offset": 63
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_product_responce(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25123700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The \"Producttotal2\" dummyJson_ADD_Cart_APII varify ProductResponcee 9.99",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Producttotal2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "9.99",
+                  "offset": 68
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_product_responcee(java.lang.String,java.lang.Double)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37486500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The \"price2\" dummyJson_ADD_Cart_APII varify ProductResponcee 9.99",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"price2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "9.99",
+                  "offset": 61
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_product_responcee(java.lang.String,java.lang.Double)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26736400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The \"discountPercentage2\" dummyJson_ADD_Cart_APII varify ProductResponcee 16.87",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"discountPercentage2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "16.87",
+                  "offset": 74
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_product_responcee(java.lang.String,java.lang.Double)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28200800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The \"discountedPrice2\" dummyJson_ADD_Cart_APII varify ProductResponce 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"discountedPrice2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "8",
+                  "offset": 70
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDCart_PostApi2.the_dummy_json_add_cart_apii_varify_product_responce(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@post"
+          }
+        ]
+      }
+    ],
+    "name": "Create dummyJson_ADD_Cart_APII test scenarios",
+    "description": "",
+    "id": "create-dummyjson-add-cart-apii-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/C_DummyJson%20carts_AddCartApi.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-16T06:41:46.370Z",
+        "line": 5,
+        "name": "Create dummyJson_carts_Product_Comments_APII test scenario",
+        "description": "",
+        "id": "create-dummyjson-carts-product-comments-apii-test-scenarios;create-dummyjson-carts-product-comments-apii-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998166300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "dummyJson_carts_Product_Comments_APII using get method",
+            "match": {
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.dummy_json_carts_product_comments_apii_using_get_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1997100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The \"Get\" dummyJson_carts_Product_Comments_APII call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Get\"",
+                  "offset": 4
+                },
+                {
+                  "val": "200",
+                  "offset": 82
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_call_got_success_with_status_code(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The \"content-type\" dummyJson_carts_Product_Comments_APII  varify Responce_Header \"application/json; charset\u003dutf-8\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"content-type\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 81
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responce_header(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47139500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The \"id1\" dummyJson_carts_Product_Comments_APII varify Responcee 76",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id1\"",
+                  "offset": 4
+                },
+                {
+                  "val": "76",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responcee(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35013000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The \"body1\" dummyJson_carts_Product_Comments_APII varify Responce \"This really sparkles!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"body1\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"This really sparkles!\"",
+                  "offset": 66
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25087900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The \"postId1\" dummyJson_carts_Product_Comments_APII varify Responcee 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"postId1\"",
+                  "offset": 4
+                },
+                {
+                  "val": "2",
+                  "offset": 69
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responcee(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19060600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The \"likes1\" dummyJson_carts_Product_Comments_APII varify Responcee 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"likes1\"",
+                  "offset": 4
+                },
+                {
+                  "val": "8",
+                  "offset": 68
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responcee(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18002700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The \"postId1\" dummyJson_carts_Product_Comments_APII varify Responcee 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"postId1\"",
+                  "offset": 4
+                },
+                {
+                  "val": "2",
+                  "offset": 69
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responcee(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19002100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The \"body1\" dummyJson_carts_Product_Comments_APII varify Responce \"This really sparkles!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"body1\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"This really sparkles!\"",
+                  "offset": 66
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19000400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The \"userid1\" dummyJson_carts_Product_Comments_APII varify Responcee 68",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userid1\"",
+                  "offset": 4
+                },
+                {
+                  "val": "68",
+                  "offset": 69
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responcee(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18714600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The \"username1\" dummyJson_carts_Product_Comments_APII varify Responce \"laylas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username1\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"laylas\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15998200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The \"fullName1\" dummyJson_carts_Product_Comments_APII varify Responce \"Layla Sullivan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fullName1\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Layla Sullivan\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17905600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The \"id2\" dummyJson_carts_Product_Comments_APII varify Responcee 198",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "198",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responcee(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The \"body2\" dummyJson_carts_Product_Comments_APII varify Responce \"What did I just see, that\u0027s amazing, oh sorry it\u0027s you!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"body2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"What did I just see, that\u0027s amazing, oh sorry it\u0027s you!\"",
+                  "offset": 66
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15272300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The \"postId2\" dummyJson_carts_Product_Comments_APII varify Responcee 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"postId2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "2",
+                  "offset": 69
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responcee(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The \"likes2\" dummyJson_carts_Product_Comments_APII varify Responcee 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"likes2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "5",
+                  "offset": 68
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responcee(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The \"userid2\" dummyJson_carts_Product_Comments_APII varify Responcee 150",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userid2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "150",
+                  "offset": 69
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responcee(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19004400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The \"username2\" dummyJson_carts_Product_Comments_APII varify Responce \"stellas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"stellas\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21025600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The \"fullName2\" dummyJson_carts_Product_Comments_APII varify Responce \"Stella Morris\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fullName2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Stella Morris\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_CommentGetApi.the_dummy_json_carts_product_comments_apii_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@post"
+          }
+        ]
+      }
+    ],
+    "name": "Create dummyJson_carts_Product_Comments_APII test scenarios",
+    "description": "",
+    "id": "create-dummyjson-carts-product-comments-apii-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/C_DummyJson%20carts_Product_CommentGetApi3.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-16T06:41:47.790Z",
+        "line": 5,
+        "name": "Create User API test scenario",
+        "description": "",
+        "id": "create-dummyjson-carts-product-catagory-api-test-scenarios;create-user-api-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1116362300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "LoginToken dummyJson_carts_Product_catagory_API using get method",
+            "match": {
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.login_token_dummy_json_carts_product_catagory_api_using_get_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1003000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The \"Get\" dummyJson_carts_Product_catagory_API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Get\"",
+                  "offset": 4
+                },
+                {
+                  "val": "200",
+                  "offset": 81
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_call_got_success_with_status_code(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The \"content-type\" dummyJson_carts_Product_catagory_API  varify Responce_Header \"application/json; charset\u003dutf-8\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"content-type\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 80
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce_header(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79089800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The \"slug\" dummyJson_carts_Product_catagory_API varify Responce \"beauty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"slug\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"beauty\"",
+                  "offset": 64
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56001500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The \"name\" dummyJson_carts_Product_catagory_API varify Responce \"Beauty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Beauty\"",
+                  "offset": 64
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22054100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The \"slug1\" dummyJson_carts_Product_catagory_API varify Responce \"fragrances\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"slug1\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"fragrances\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50431400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The \"name1\" dummyJson_carts_Product_catagory_API varify Responce \"Fragrances\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name1\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Fragrances\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22995900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The \"slug2\" dummyJson_carts_Product_catagory_API varify Responce \"furniture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"slug2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"furniture\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19405700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The \"name2\" dummyJson_carts_Product_catagory_API varify Responce \"Furniture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name2\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Furniture\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21986100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The \"slug3\" dummyJson_carts_Product_catagory_API varify Responce \"groceries\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"slug3\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"groceries\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19556900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The \"name3\" dummyJson_carts_Product_catagory_API varify Responce \"Groceries\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name3\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Groceries\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20733800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The \"slug4\" dummyJson_carts_Product_catagory_API varify Responce \"home-decoration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"slug4\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"home-decoration\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17981100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The \"name4\" dummyJson_carts_Product_catagory_API varify Responce \"Home Decoration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name4\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Home Decoration\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17502500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The \"slug5\" dummyJson_carts_Product_catagory_API varify Responce \"kitchen-accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"slug5\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"kitchen-accessories\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16389000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The \"name5\" dummyJson_carts_Product_catagory_API varify Responce \"Kitchen Accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name5\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Kitchen Accessories\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20698100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The \"slug6\" dummyJson_carts_Product_catagory_API varify Responce \"laptops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"slug6\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"laptops\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28087200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The \"name6\" dummyJson_carts_Product_catagory_API varify Responce \"Laptops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name6\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Laptops\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryGetApi2.the_dummy_json_carts_product_catagory_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@post"
+          }
+        ]
+      }
+    ],
+    "name": "Create dummyJson_carts_Product_catagory_API test scenarios",
+    "description": "",
+    "id": "create-dummyjson-carts-product-catagory-api-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/C_DummyJson%20carts_Product_catagoryGetApi.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-16T06:41:49.438Z",
+        "line": 5,
+        "name": "Create User API test scenario",
+        "description": "",
+        "id": "create-dummyjson-carts-product-catagory-apii-test-scenarios;create-user-api-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1102524600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "LoginToken dummyJson_carts_Product_catagory_APII using get method",
+            "match": {
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryPutApi3.login_token_dummy_json_carts_product_catagory_apii_using_get_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: The following asserts failed:\n\texpected [200] but found [404]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)\r\n\tat Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryPutApi3.the_dummy_json_carts_product_catagory_apii_call_got_success_with_status_code(C_DummyJsoncarts_Product_catagoryPutApi3.java:64)\r\n\tat ✽.The \"Put\" dummyJson_carts_Product_catagory_APII call got success with status code 200(file:///E:/RestAssure_cloneproject2/Cucumber_RestApi_Automation_Nikhil-master/src/test/resources/Feature/C_DummyJson%20carts_Product_catagoryPUTApi2.feature:7)\r\n",
+              "duration": 16002600,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "The \"Put\" dummyJson_carts_Product_catagory_APII call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Put\"",
+                  "offset": 4
+                },
+                {
+                  "val": "200",
+                  "offset": 82
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryPutApi3.the_dummy_json_carts_product_catagory_apii_call_got_success_with_status_code(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2006100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "The \"content-type\" dummyJson_carts_Product_catagory_APII  varify Responce_Header \"application/json; charset\u003dutf-8\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"content-type\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 81
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryPutApi3.the_dummy_json_carts_product_catagory_apii_varify_responce_header(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 164300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "The \"id\" dummyJson_carts_Product_catagory_APII varify Responcee 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 4
+                },
+                {
+                  "val": "2",
+                  "offset": 64
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryPutApi3.the_dummy_json_carts_product_catagory_apii_varify_responcee(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000300,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "The \"title\" dummyJson_carts_Product_catagory_APII varify Responce \"Chargerhhhh RWD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"title\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Chargerhhhh RWD\"",
+                  "offset": 66
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryPutApi3.the_dummy_json_carts_product_catagory_apii_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@post"
+          }
+        ]
+      }
+    ],
+    "name": "Create dummyJson_carts_Product_catagory_APII test scenarios",
+    "description": "",
+    "id": "create-dummyjson-carts-product-catagory-apii-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/C_DummyJson%20carts_Product_catagoryPUTApi2.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-16T06:41:50.935Z",
+        "line": 5,
+        "name": "Create User API test scenario",
+        "description": "",
+        "id": "create-dummyjson-cartsadduser-api-test-scenarios;create-user-api-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78905900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create dummyJson_cartsaddUser_API payload",
+            "match": {
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDUser_PostApi2.create_dummy_json_cartsadd_user_api_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 960339400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "LoginToken dummyJson_cartsaddUser_API API using post method",
+            "match": {
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDUser_PostApi2.login_token_dummy_json_cartsadd_user_api_api_using_post_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1998400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The \"post\" dummyJson_cartsaddUser_API API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"post\"",
+                  "offset": 4
+                },
+                {
+                  "val": "200",
+                  "offset": 76
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDUser_PostApi2.the_dummy_json_cartsadd_user_api_api_call_got_success_with_status_code(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55994200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The \"id\" dummyJson_cartsaddUser_API API  varify ResponceId 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 4
+                },
+                {
+                  "val": "1",
+                  "offset": 59
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDUser_PostApi2.the_dummy_json_cartsadd_user_api_api_varify_responce_id(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43997400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The \"title\"  dummyJson_cartsaddUser_API varify Responce \"job pedrson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"title\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"job pedrson\"",
+                  "offset": 56
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDUser_PostApi2.the_dummy_json_cartsadd_user_api_varify_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 935700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The \"content-type\" dummyJson_cartsaddUser_API API  varify Responce_Header \"application/json; charset\u003dutf-8\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"content-type\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 74
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDUser_PostApi2.the_dummy_json_cartsadd_user_api_api_varify_responce_header(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The \"server\" dummyJson_cartsaddUser_API API  varify Responce_Header \"railway\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"server\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"railway\"",
+                  "offset": 68
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.C_DummyJsoncartsADDUser_PostApi2.the_dummy_json_cartsadd_user_api_api_varify_responce_header(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@post"
+          }
+        ]
+      }
+    ],
+    "name": "Create dummyJson_cartsaddUser_API test scenarios",
+    "description": "",
+    "id": "create-dummyjson-cartsadduser-api-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/C_DummyJson%20carts_addUserPostApi.feature",
+    "tags": []
+  }
+]

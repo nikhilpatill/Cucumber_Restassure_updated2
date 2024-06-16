@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="16.745">
+    <testcase classname="Create dummyJson_ADD_Cart_APII test scenarios" name="Create User ADD_Cart_APIIAPI test scenario" time="9.458">
+        <system-out><![CDATA[When LoginToken dummyJson_ADD_Cart_APII using get method....................passed
+Then The "Post" dummyJson_ADD_Cart_APII call got success with status code 201.passed
+Then The "content-type" dummyJson_ADD_Cart_APII  varify Responce_Header "application/json; charset=utf-8",.passed
+Then The "id" dummyJson_ADD_Cart_APII varify Responceeid 51.................passed
+Then The "total" dummyJson_ADD_Cart_APII varify Responcee 19.98.............passed
+Then The "discountedTotal" dummyJson_ADD_Cart_APII varify ResponceediscountedTotal 17.passed
+Then The "userId" dummyJson_ADD_Cart_APII varify ResponceeuserId 1..........passed
+Then The "totalProducts" dummyJson_ADD_Cart_APII varify ResponceetotalProducts 2.passed
+Then The "totalQuantity" dummyJson_ADD_Cart_APII varify ResponceetotalQuantity 2.passed
+Then The "Product_title" dummyJson_ADD_Cart_APII varify Responce "Essence Mascara Lash Princess".passed
+Then The "quantity" dummyJson_ADD_Cart_APII varify ProductResponce 1........passed
+Then The "Producttotal" dummyJson_ADD_Cart_APII varify ProductResponcee 9.99.passed
+Then The "price" dummyJson_ADD_Cart_APII varify ProductResponcee 9.99.......passed
+Then The "discountPercentage" dummyJson_ADD_Cart_APII varify ProductResponcee 7.17.passed
+Then The "discountedPrice" dummyJson_ADD_Cart_APII varify ProductResponce 9.passed
+Then The "Product_title2" dummyJson_ADD_Cart_APII varify Responce "Black Whisk".passed
+Then The "quantity2" dummyJson_ADD_Cart_APII varify ProductResponce 1.......passed
+Then The "Producttotal2" dummyJson_ADD_Cart_APII varify ProductResponcee 9.99.passed
+Then The "price2" dummyJson_ADD_Cart_APII varify ProductResponcee 9.99......passed
+Then The "discountPercentage2" dummyJson_ADD_Cart_APII varify ProductResponcee 16.87.passed
+Then The "discountedPrice2" dummyJson_ADD_Cart_APII varify ProductResponce 8.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Create dummyJson_carts_Product_Comments_APII test scenarios" name="Create dummyJson_carts_Product_Comments_APII test scenario" time="1.326">
+        <system-out><![CDATA[When dummyJson_carts_Product_Comments_APII using get method.................passed
+Then The "Get" dummyJson_carts_Product_Comments_APII call got success with status code 200.passed
+Then The "content-type" dummyJson_carts_Product_Comments_APII  varify Responce_Header "application/json; charset=utf-8",.passed
+Then The "id1" dummyJson_carts_Product_Comments_APII varify Responcee 76....passed
+Then The "body1" dummyJson_carts_Product_Comments_APII varify Responce "This really sparkles!".passed
+Then The "postId1" dummyJson_carts_Product_Comments_APII varify Responcee 2.passed
+Then The "likes1" dummyJson_carts_Product_Comments_APII varify Responcee 8..passed
+Then The "postId1" dummyJson_carts_Product_Comments_APII varify Responcee 2.passed
+Then The "body1" dummyJson_carts_Product_Comments_APII varify Responce "This really sparkles!".passed
+Then The "userid1" dummyJson_carts_Product_Comments_APII varify Responcee 68.passed
+Then The "username1" dummyJson_carts_Product_Comments_APII varify Responce "laylas".passed
+Then The "fullName1" dummyJson_carts_Product_Comments_APII varify Responce "Layla Sullivan".passed
+Then The "id2" dummyJson_carts_Product_Comments_APII varify Responcee 198...passed
+Then The "body2" dummyJson_carts_Product_Comments_APII varify Responce "What did I just see, that's amazing, oh sorry it's you!".passed
+Then The "postId2" dummyJson_carts_Product_Comments_APII varify Responcee 2.passed
+Then The "likes2" dummyJson_carts_Product_Comments_APII varify Responcee 5..passed
+Then The "userid2" dummyJson_carts_Product_Comments_APII varify Responcee 150.passed
+Then The "username2" dummyJson_carts_Product_Comments_APII varify Responce "stellas".passed
+Then The "fullName2" dummyJson_carts_Product_Comments_APII varify Responce "Stella Morris".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Create dummyJson_carts_Product_catagory_API test scenarios" name="Create User API test scenario" time="1.566">
+        <system-out><![CDATA[When LoginToken dummyJson_carts_Product_catagory_API using get method.......passed
+Then The "Get" dummyJson_carts_Product_catagory_API call got success with status code 200.passed
+Then The "content-type" dummyJson_carts_Product_catagory_API  varify Responce_Header "application/json; charset=utf-8",.passed
+Then The "slug" dummyJson_carts_Product_catagory_API varify Responce "beauty".passed
+Then The "name" dummyJson_carts_Product_catagory_API varify Responce "Beauty".passed
+Then The "slug1" dummyJson_carts_Product_catagory_API varify Responce "fragrances".passed
+Then The "name1" dummyJson_carts_Product_catagory_API varify Responce "Fragrances".passed
+Then The "slug2" dummyJson_carts_Product_catagory_API varify Responce "furniture".passed
+Then The "name2" dummyJson_carts_Product_catagory_API varify Responce "Furniture".passed
+Then The "slug3" dummyJson_carts_Product_catagory_API varify Responce "groceries".passed
+Then The "name3" dummyJson_carts_Product_catagory_API varify Responce "Groceries".passed
+Then The "slug4" dummyJson_carts_Product_catagory_API varify Responce "home-decoration".passed
+Then The "name4" dummyJson_carts_Product_catagory_API varify Responce "Home Decoration".passed
+Then The "slug5" dummyJson_carts_Product_catagory_API varify Responce "kitchen-accessories".passed
+Then The "name5" dummyJson_carts_Product_catagory_API varify Responce "Kitchen Accessories".passed
+Then The "slug6" dummyJson_carts_Product_catagory_API varify Responce "laptops".passed
+Then The "name6" dummyJson_carts_Product_catagory_API varify Responce "Laptops".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Create dummyJson_carts_Product_catagory_APII test scenarios" name="Create User API test scenario" time="1.175">
+        <failure message="The following asserts failed:&#10;&#9;expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[When LoginToken dummyJson_carts_Product_catagory_APII using get method......passed
+Then The "Put" dummyJson_carts_Product_catagory_APII call got success with status code 200.failed
+Then The "content-type" dummyJson_carts_Product_catagory_APII  varify Responce_Header "application/json; charset=utf-8",.skipped
+Then The "id" dummyJson_carts_Product_catagory_APII varify Responcee 2......skipped
+Then The "title" dummyJson_carts_Product_catagory_APII varify Responce "Chargerhhhh RWD".skipped
+
+StackTrace:
+java.lang.AssertionError: The following asserts failed:
+	expected [200] but found [404]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at Go_RestApi_stepDefination.C_DummyJsoncarts_Product_catagoryPutApi3.the_dummy_json_carts_product_catagory_apii_call_got_success_with_status_code(C_DummyJsoncarts_Product_catagoryPutApi3.java:64)
+	at ✽.The "Put" dummyJson_carts_Product_catagory_APII call got success with status code 200(file:///E:/RestAssure_cloneproject2/Cucumber_RestApi_Automation_Nikhil-master/src/test/resources/Feature/C_DummyJson%20carts_Product_catagoryPUTApi2.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Create dummyJson_cartsaddUser_API test scenarios" name="Create User API test scenario" time="1.162">
+        <system-out><![CDATA[Given Create dummyJson_cartsaddUser_API payload.............................passed
+When LoginToken dummyJson_cartsaddUser_API API using post method............passed
+Then The "post" dummyJson_cartsaddUser_API API call got success with status code 200.passed
+Then The "id" dummyJson_cartsaddUser_API API  varify ResponceId 1...........passed
+Then The "title"  dummyJson_cartsaddUser_API varify Responce "job pedrson"..passed
+Then The "content-type" dummyJson_cartsaddUser_API API  varify Responce_Header "application/json; charset=utf-8",.passed
+Then The "server" dummyJson_cartsaddUser_API API  varify Responce_Header "railway",.passed
+]]></system-out>
+    </testcase>
+</testsuite>
