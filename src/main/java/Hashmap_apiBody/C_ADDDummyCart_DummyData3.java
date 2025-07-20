@@ -31,6 +31,8 @@ public class C_ADDDummyCart_DummyData3 {
 		// Create the second product
 		HashMap<String, Object> product2 = new HashMap<>();
 		product2.put("id", 50);
+		
+		
 		product2.put("quantity", 2);
 		product2.put("quantity", 1);
 		product2.put("price", 112.55);
