@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="94.716">
-    <testcase classname="Auth_login GET_profile API test scenarios" name="Create User API test scenario" time="47.415">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.833">
+    <testcase classname="Auth_login GET_profile API test scenarios" name="Create User API test scenario" time="7.692">
         <system-out><![CDATA[When Auth_login GET_profile API using get method............................passed
 Then Auth_login GET_profile "get" API call got success with status code 200.passed
 Then The "id" varify GET_profile responce "1"...............................passed
+Then The "email" varify GET_profile responce "john@mail.com"................passed
+Then The "password" varify GET_profile responce "changeme"..................passed
 ]]></system-out>
     </testcase>
 </testsuite>

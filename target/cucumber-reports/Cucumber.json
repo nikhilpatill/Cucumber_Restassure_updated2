@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2025-07-19T14:49:53.886Z",
+        "start_timestamp": "2025-07-20T06:39:17.401Z",
         "line": 4,
         "name": "Create User API test scenario",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17728880800,
+              "duration": 7167671600,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 4985800,
+              "duration": 5096800,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 29394963200,
+              "duration": 29921100,
               "status": "passed"
             },
             "line": 7,
@@ -61,6 +61,50 @@
                 {
                   "val": "\"1\"",
                   "offset": 37
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.D_Auth_GetProfileStepdef.the_varify_get_profile_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1009900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The \"email\" varify GET_profile responce \"john@mail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"john@mail.com\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.D_Auth_GetProfileStepdef.the_varify_get_profile_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 995400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The \"password\" varify GET_profile responce \"changeme\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"changeme\"",
+                  "offset": 43
                 }
               ],
               "location": "Go_RestApi_stepDefination.D_Auth_GetProfileStepdef.the_varify_get_profile_responce(java.lang.String,java.lang.String)"

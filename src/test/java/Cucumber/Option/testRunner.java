@@ -14,7 +14,8 @@ import io.cucumber.junit.CucumberOptions;
 
 		plugin = { "pretty", "html:target/cucumber-reports/cucumber.html", "json:target/cucumber-reports/Cucumber.json",
 				"junit:target/cucumber-reports/Cucumber.xml",
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				"rerun:target/failreRun.txt" },
 		dryRun = false,
 		tags = "@nik"
 
