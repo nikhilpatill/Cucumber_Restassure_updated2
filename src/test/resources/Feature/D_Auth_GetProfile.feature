@@ -7,6 +7,12 @@ Feature: Auth_login GET_profile API test scenarios
     Then The "id" varify GET_profile responce "1"
     Then The "email" varify GET_profile responce "john@mail.com"
     Then The "password" varify GET_profile responce "changeme"
+    Then The "name" varify GET_profile responce "Jhon"
+    
+    
+    
+    
+    
  
  
  

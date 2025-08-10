@@ -132,10 +132,10 @@ public class BDummyuserGetQuary_parameter_idstepdefination {
 			as.assertEquals(jp.getString("users[0].hair.type"), Expectedresponce);
 		} else if (httpmethod.equalsIgnoreCase("address")) {
 			as.assertEquals(jp.getString("users[0].address.address"), Expectedresponce);
-		}else if (httpmethod.equalsIgnoreCase("city")) {
+		} else if (httpmethod.equalsIgnoreCase("city")) {
 			as.assertEquals(jp.getString("users[0].address.city"), Expectedresponce);
 		}
-		
+
 		else if (httpmethod.equalsIgnoreCase("macAddress")) {
 			as.assertEquals(jp.getString("users[0].macAddress"), Expectedresponce);
 		} else if (httpmethod.equalsIgnoreCase("university")) {

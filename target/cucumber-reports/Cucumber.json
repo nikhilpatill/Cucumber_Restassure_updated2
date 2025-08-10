@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2025-07-20T06:39:17.401Z",
+        "start_timestamp": "2025-08-06T04:57:17.724Z",
         "line": 4,
         "name": "Create User API test scenario",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7167671600,
+              "duration": 6889760400,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 5096800,
+              "duration": 3989600,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 29921100,
+              "duration": 25003500,
               "status": "passed"
             },
             "line": 7,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 1009900,
+              "duration": 22941100,
               "status": "passed"
             },
             "line": 8,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 995400,
+              "duration": 26928700,
               "status": "passed"
             },
             "line": 9,
@@ -105,6 +105,28 @@
                 {
                   "val": "\"changeme\"",
                   "offset": 43
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.D_Auth_GetProfileStepdef.the_varify_get_profile_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23935500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The \"name\" varify GET_profile responce \"Jhon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Jhon\"",
+                  "offset": 39
                 }
               ],
               "location": "Go_RestApi_stepDefination.D_Auth_GetProfileStepdef.the_varify_get_profile_responce(java.lang.String,java.lang.String)"
@@ -124,6 +146,88 @@
     "id": "auth-login-get-profile-api-test-scenarios",
     "keyword": "Feature",
     "uri": "file:src/test/resources/Feature/D_Auth_GetProfile.feature",
+    "tags": [
+      {
+        "name": "@nik",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-08-06T04:57:25.159Z",
+        "line": 4,
+        "name": "Create User API test scenario",
+        "description": "",
+        "id": "auth-login-api-test-scenarios;create-user-api-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8972500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Auth_login payload",
+            "match": {
+              "location": "Go_RestApi_stepDefination.D_Auth_login_stepdef.auth_login_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 831144400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Auth_login API using post method",
+            "match": {
+              "location": "Go_RestApi_stepDefination.D_Auth_login_stepdef.auth_login_api_using_post_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1992000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Auth_login \"post\" API call got success with status code 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"post\"",
+                  "offset": 11
+                },
+                {
+                  "val": "201",
+                  "offset": 56
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.D_Auth_login_stepdef.auth_login_api_call_got_success_with_status_code(java.lang.String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@nik"
+          }
+        ]
+      }
+    ],
+    "name": "Auth_login API test scenarios",
+    "description": "",
+    "id": "auth-login-api-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/D_Auth_login.feature",
     "tags": [
       {
         "name": "@nik",

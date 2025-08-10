@@ -55,14 +55,32 @@ public class D_Auth_GetProfileStepdef {
 		{
 			Assert.assertEquals(res.getStatusCode(), expected);
 		}
+		
+		
 
 	}
+	
 
 	@Then("The {string} varify GET_profile responce {string}")
 	public void the_varify_get_profile_responce(String httpmethod, String expected ) {
 		
 		if (httpmethod.equalsIgnoreCase("id")) {
 			Assert.assertEquals(jp.getString("id"), expected);
+		}
+		if (httpmethod.equalsIgnoreCase("email"))
+
+		{
+			Assert.assertEquals(jp.getString("email"), expected);
+		}
+		if (httpmethod.equalsIgnoreCase("password"))
+
+		{
+			Assert.assertEquals(jp.getString("password"), expected);
+		}
+		if (httpmethod.equalsIgnoreCase("name"))
+
+		{
+			Assert.assertEquals(jp.getString("name"), expected);
 		}
 	}
 
