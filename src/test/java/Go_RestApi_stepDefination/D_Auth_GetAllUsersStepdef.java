@@ -108,6 +108,59 @@ public class D_Auth_GetAllUsersStepdef {
 			}
 		}
 
+		if (httpmethod.equalsIgnoreCase("id1")) {
+
+			if (jp.getString("id[1]").equalsIgnoreCase(expectedvalue)) {
+				Assert.assertTrue(true);
+			}
+		}
+
+		else if (httpmethod.equalsIgnoreCase("email1")) {
+
+			if (jp.getString("email[1]").equalsIgnoreCase(expectedvalue)) {
+
+				Assert.assertTrue(true);
+			}
+		}
+
+		else if (httpmethod.equalsIgnoreCase("password1")) {
+
+			if (jp.getString("password[1]").equalsIgnoreCase(expectedvalue)) {
+
+				Assert.assertTrue(true);
+			}
+		}
+
+		else if (httpmethod.equalsIgnoreCase("name1")) {
+			if (jp.getString("name[1]").equalsIgnoreCase(expectedvalue)) {
+
+				Assert.assertTrue(true);
+			}
+		} else if (httpmethod.equalsIgnoreCase("role1")) {
+			if (jp.getString("role[1]").equalsIgnoreCase(expectedvalue)) {
+
+				Assert.assertTrue(true);
+			}
+		} else if (httpmethod.equalsIgnoreCase("avatar1")) {
+			if (jp.getString("avatar[1]").equalsIgnoreCase(expectedvalue)) {
+
+				Assert.assertTrue(true);
+
+			}
+		} else if (httpmethod.equalsIgnoreCase("creationAt1")) {
+			if (jp.getString("creationAt[1]").equalsIgnoreCase(expectedvalue)) {
+
+				Assert.assertTrue(true);
+			}
+		}
+
+		else if (httpmethod.equalsIgnoreCase("updatedAt1")) {
+			if (jp.getString("updatedAt[1]").equalsIgnoreCase(expectedvalue)) {
+
+				Assert.assertTrue(true);
+			}
+		}
+
 	}
 
 }

@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="43.445">
-    <testcase classname="Auth_login GET_AllUsers API test scenarios" name="Create User API test scenario" time="42.277">
-        <system-out><![CDATA[When Auth_login GET_AllUsers API using get method...........................passed
-Then Auth_login GET_AllUsers "get" API call got success with status code 200.passed
-Then The "id" varify GET_AllUsers responce "1"..............................passed
-Then The "email" varify GET_AllUsers responce "john@mail.com"...............passed
-Then The "password" varify GET_AllUsers responce "changeme".................passed
-Then The "name" varify GET_AllUsers responce "mossad".......................passed
-Then The "role" varify GET_AllUsers responce "admin"........................passed
-Then The "avatar" varify GET_AllUsers responce "https://i.imgur.com/LDOO4Qs.jpg".passed
-Then The "creationAt" varify GET_AllUsers responce "2025-08-15T23:04:13.000Z".passed
-Then The "updatedAt" varify GET_AllUsers responce "2025-08-15T23:04:13.000Z".passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="252.573">
+    <testcase classname="Auth_login GET_AllUsers_role=customer API test scenarios" name="Create User API test scenario" time="251.52">
+        <failure message="Cannot invoke &quot;io.restassured.path.json.JsonPath.getString(String)&quot; because &quot;Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.jp&quot; is null" type="java.lang.NullPointerException"><![CDATA[When Auth_login GET_AllUsers_role_custome API using get method..............passed
+Then Auth_login GET_AllUsers_role_customer "get" API call got success with status code 200.passed
+Then The "id" varify GET_AllUsers_role_customer responce "1"................passed
+Then The "email" varify GET_AllUsers_role_customer responce "john@mail.com".passed
+Then The "password" varify GET_AllUsers_role_customer responce "changeme"...passed
+Then The "name" varify GET_AllUsers_role_customer responce "Jhon"...........passed
+Then The "role" varify GET_AllUsers_role_customer responce "customer".......passed
+Then The "avatar" varify GET_AllUsers_role_customer responce "https://i.imgur.com/LDOO4Qs.jpg".passed
+Then The "creationAt" varify GET_AllUsers_role_customer responce "2025-08-16T23:34:49.000Z".passed
+Then The "updatedAt" varify GET_AllUsers_role_customer responce "2025-08-16T23:34:49.000Z".passed
+Then The "id1" varify GET_AllUsers_role_customer responce "2"...............passed
+Then The "email1" varify GET_AllUsers_role_customer responce "maria@mail.com".passed
+Then The "password1" varify GET_AllUsers_role_customer responce "12345".....passed
+Then The "name1" varify GET_AllUsers_role_customer responce "Maria".........passed
+Then The "role1" varify GET_AllUsers_role_customer responce "customer"......passed
+Then The "avatar1" varify GET_AllUsers_role_customer responce "https://i.imgur.com/DTfowdu.jpg".passed
+Then The "creationAt1" varify GET_AllUsers responce "2025-08-16T23:34:49.000Z".failed
+Then The "updatedAt1" varify GET_AllUsers responce "2025-08-16T23:34:49.000Z".skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "io.restassured.path.json.JsonPath.getString(String)" because "Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.jp" is null
+	at Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.the_varify_get_all_users_responce(D_Auth_GetAllUsersStepdef.java:151)
+	at ✽.The "creationAt1" varify GET_AllUsers responce "2025-08-16T23:34:49.000Z"(file:///G:/api_tomation_cucumber/Cucumber_Restassure_updated2/src/test/resources/Feature/D_Auth_GetAlluser_role=customer_Queryparam.feature:22)
+]]></failure>
     </testcase>
 </testsuite>
