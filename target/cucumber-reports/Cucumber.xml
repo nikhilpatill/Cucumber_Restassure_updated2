@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="9.023">
-    <testcase classname="Auth_login GET_profile API test scenarios" name="Create User API test scenario" time="7.312">
-        <system-out><![CDATA[When Auth_login GET_profile API using get method............................passed
-Then Auth_login GET_profile "get" API call got success with status code 200.passed
-Then The "id" varify GET_profile responce "1"...............................passed
-Then The "email" varify GET_profile responce "john@mail.com"................passed
-Then The "password" varify GET_profile responce "changeme"..................passed
-Then The "name" varify GET_profile responce "Jhon"..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Auth_login API test scenarios" name="Create User API test scenario" time="0.864">
-        <system-out><![CDATA[Given Auth_login payload....................................................passed
-When Auth_login API using post method.......................................passed
-Then Auth_login "post" API call got success with status code 201............passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="43.445">
+    <testcase classname="Auth_login GET_AllUsers API test scenarios" name="Create User API test scenario" time="42.277">
+        <system-out><![CDATA[When Auth_login GET_AllUsers API using get method...........................passed
+Then Auth_login GET_AllUsers "get" API call got success with status code 200.passed
+Then The "id" varify GET_AllUsers responce "1"..............................passed
+Then The "email" varify GET_AllUsers responce "john@mail.com"...............passed
+Then The "password" varify GET_AllUsers responce "changeme".................passed
+Then The "name" varify GET_AllUsers responce "mossad".......................passed
+Then The "role" varify GET_AllUsers responce "admin"........................passed
+Then The "avatar" varify GET_AllUsers responce "https://i.imgur.com/LDOO4Qs.jpg".passed
+Then The "creationAt" varify GET_AllUsers responce "2025-08-15T23:04:13.000Z".passed
+Then The "updatedAt" varify GET_AllUsers responce "2025-08-15T23:04:13.000Z".passed
 ]]></system-out>
     </testcase>
 </testsuite>

@@ -3,55 +3,55 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2025-08-06T04:57:17.724Z",
-        "line": 4,
+        "start_timestamp": "2025-08-16T17:56:07.884Z",
+        "line": 5,
         "name": "Create User API test scenario",
         "description": "",
-        "id": "auth-login-get-profile-api-test-scenarios;create-user-api-test-scenario",
+        "id": "auth-login-get-allusers-api-test-scenarios;create-user-api-test-scenario",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6889760400,
+              "duration": 8788977500,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Auth_login GET_profile API using get method",
+            "line": 6,
+            "name": "Auth_login GET_AllUsers API using get method",
             "match": {
-              "location": "Go_RestApi_stepDefination.D_Auth_GetProfileStepdef.auth_login_get_profile_api_using_get_method()"
+              "location": "Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.auth_login_get_all_users_api_using_get_method()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3989600,
+              "duration": 5983500,
               "status": "passed"
             },
-            "line": 6,
-            "name": "Auth_login GET_profile \"get\" API call got success with status code 200",
+            "line": 7,
+            "name": "Auth_login GET_AllUsers \"get\" API call got success with status code 200",
             "match": {
               "arguments": [
                 {
                   "val": "\"get\"",
-                  "offset": 23
+                  "offset": 24
                 },
                 {
                   "val": "200",
-                  "offset": 67
+                  "offset": 68
                 }
               ],
-              "location": "Go_RestApi_stepDefination.D_Auth_GetProfileStepdef.auth_login_get_profile_api_call_got_success_with_status_code(java.lang.String,int)"
+              "location": "Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.auth_login_get_all_users_api_call_got_success_with_status_code(java.lang.String,java.lang.Integer)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 25003500,
+              "duration": 13283628600,
               "status": "passed"
             },
-            "line": 7,
-            "name": "The \"id\" varify GET_profile responce \"1\"",
+            "line": 8,
+            "name": "The \"id\" varify GET_AllUsers responce \"1\"",
             "match": {
               "arguments": [
                 {
@@ -60,20 +60,20 @@
                 },
                 {
                   "val": "\"1\"",
-                  "offset": 37
+                  "offset": 38
                 }
               ],
-              "location": "Go_RestApi_stepDefination.D_Auth_GetProfileStepdef.the_varify_get_profile_responce(java.lang.String,java.lang.String)"
+              "location": "Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.the_varify_get_all_users_responce(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 22941100,
+              "duration": 1731587400,
               "status": "passed"
             },
-            "line": 8,
-            "name": "The \"email\" varify GET_profile responce \"john@mail.com\"",
+            "line": 9,
+            "name": "The \"email\" varify GET_AllUsers responce \"john@mail.com\"",
             "match": {
               "arguments": [
                 {
@@ -82,20 +82,20 @@
                 },
                 {
                   "val": "\"john@mail.com\"",
-                  "offset": 40
+                  "offset": 41
                 }
               ],
-              "location": "Go_RestApi_stepDefination.D_Auth_GetProfileStepdef.the_varify_get_profile_responce(java.lang.String,java.lang.String)"
+              "location": "Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.the_varify_get_all_users_responce(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 26928700,
+              "duration": 1765583200,
               "status": "passed"
             },
-            "line": 9,
-            "name": "The \"password\" varify GET_profile responce \"changeme\"",
+            "line": 10,
+            "name": "The \"password\" varify GET_AllUsers responce \"changeme\"",
             "match": {
               "arguments": [
                 {
@@ -104,20 +104,20 @@
                 },
                 {
                   "val": "\"changeme\"",
-                  "offset": 43
+                  "offset": 44
                 }
               ],
-              "location": "Go_RestApi_stepDefination.D_Auth_GetProfileStepdef.the_varify_get_profile_responce(java.lang.String,java.lang.String)"
+              "location": "Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.the_varify_get_all_users_responce(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 23935500,
+              "duration": 9227379200,
               "status": "passed"
             },
-            "line": 10,
-            "name": "The \"name\" varify GET_profile responce \"Jhon\"",
+            "line": 11,
+            "name": "The \"name\" varify GET_AllUsers responce \"mossad\"",
             "match": {
               "arguments": [
                 {
@@ -125,118 +125,115 @@
                   "offset": 4
                 },
                 {
-                  "val": "\"Jhon\"",
-                  "offset": 39
+                  "val": "\"mossad\"",
+                  "offset": 40
                 }
               ],
-              "location": "Go_RestApi_stepDefination.D_Auth_GetProfileStepdef.the_varify_get_profile_responce(java.lang.String,java.lang.String)"
+              "location": "Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.the_varify_get_all_users_responce(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@nik"
-          }
-        ]
-      }
-    ],
-    "name": "Auth_login GET_profile API test scenarios",
-    "description": "",
-    "id": "auth-login-get-profile-api-test-scenarios",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/Feature/D_Auth_GetProfile.feature",
-    "tags": [
-      {
-        "name": "@nik",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "start_timestamp": "2025-08-06T04:57:25.159Z",
-        "line": 4,
-        "name": "Create User API test scenario",
-        "description": "",
-        "id": "auth-login-api-test-scenarios;create-user-api-test-scenario",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 8972500,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Auth_login payload",
-            "match": {
-              "location": "Go_RestApi_stepDefination.D_Auth_login_stepdef.auth_login_payload()"
-            },
-            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 831144400,
+              "duration": 1782479800,
               "status": "passed"
             },
-            "line": 6,
-            "name": "Auth_login API using post method",
-            "match": {
-              "location": "Go_RestApi_stepDefination.D_Auth_login_stepdef.auth_login_api_using_post_method()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1992000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Auth_login \"post\" API call got success with status code 201",
+            "line": 12,
+            "name": "The \"role\" varify GET_AllUsers responce \"admin\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"post\"",
-                  "offset": 11
+                  "val": "\"role\"",
+                  "offset": 4
                 },
                 {
-                  "val": "201",
-                  "offset": 56
+                  "val": "\"admin\"",
+                  "offset": 40
                 }
               ],
-              "location": "Go_RestApi_stepDefination.D_Auth_login_stepdef.auth_login_api_call_got_success_with_status_code(java.lang.String,int)"
+              "location": "Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.the_varify_get_all_users_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1694180500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The \"avatar\" varify GET_AllUsers responce \"https://i.imgur.com/LDOO4Qs.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"avatar\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"https://i.imgur.com/LDOO4Qs.jpg\"",
+                  "offset": 42
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.the_varify_get_all_users_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1685071800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The \"creationAt\" varify GET_AllUsers responce \"2025-08-15T23:04:13.000Z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"creationAt\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"2025-08-15T23:04:13.000Z\"",
+                  "offset": 46
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.the_varify_get_all_users_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1567898500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The \"updatedAt\" varify GET_AllUsers responce \"2025-08-15T23:04:13.000Z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"updatedAt\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"2025-08-15T23:04:13.000Z\"",
+                  "offset": 45
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.D_Auth_GetAllUsersStepdef.the_varify_get_all_users_responce(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@nik"
+            "name": "@now"
           }
         ]
       }
     ],
-    "name": "Auth_login API test scenarios",
+    "name": "Auth_login GET_AllUsers API test scenarios",
     "description": "",
-    "id": "auth-login-api-test-scenarios",
+    "id": "auth-login-get-allusers-api-test-scenarios",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Feature/D_Auth_login.feature",
-    "tags": [
-      {
-        "name": "@nik",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/Feature/D_Auth_GetAllusers.feature",
+    "tags": []
   }
 ]
